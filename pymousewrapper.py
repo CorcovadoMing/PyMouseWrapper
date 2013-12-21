@@ -18,7 +18,6 @@ def mouseEvent(type, posx, posy):
     CGEventPost(kCGHIDEventTap, theEvent)
 
 def mouseMove(posx, posy):
-    time.sleep(0.09)
     mouseEvent(kCGEventMouseMoved, posx, posy);
 
 def mouseClickDown(posx, posy):
